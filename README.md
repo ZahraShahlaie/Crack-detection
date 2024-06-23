@@ -10,25 +10,20 @@ A paper published in 2023 has focused on the automated inspection of cracks and 
 ### Limitations and Recommendations:
 - The models were trained and evaluated for crack detection and depth prediction under uniform loading conditions, necessitating further studies to validate the model on cracks induced by other loading conditions such as cyclic loading.
 - The models were trained and tested on a limited set of images under suitable lighting conditions and without background noise. Future studies should consider varying lighting conditions and background noise.
-- This study assumes that the maximum crack depth along the crack length is uniform, whereas crack depth may vary along its length. Further studies are required to investigate the actual depth variation along the crack.
 
 ### Project Objectives:
 This project involves developing a deep learning model for crack detection under low-light conditions, simulated nighttime scenarios, and using images captured from greater distances. Additionally, enhancing model accuracy by adding textures to crack-free images is targeted.
 
 ### Project Execution Steps:
 
-1. **Data Collection and Preparation**:
-   - **Image Collection**: Capture images of concrete structures under different lighting conditions (low light, nighttime) and from various distances. Use high-quality cameras or even smartphone cameras.
-   - **Diverse Lighting**: Capture images at different times of the day and under different lighting conditions to enable the model to detect cracks in various lighting scenarios.
-
-2. **Image Preprocessing**:
+1. **Image Preprocessing**:
    - **Adjusting Lighting**: Use image processing techniques such as brightness and contrast adjustment to simulate low-light and nighttime conditions.
 
-3. **Adding Textures to Crack-Free Images**:
+2. **Adding Textures to Crack-Free Images**:
    - **Textures**: Add three different textures to crack-free images to enhance the model's accuracy in crack detection.
    - **Texture Variety**: Use various textures so that the model can identify cracks under different conditions.
 
-4. **Modeling**:
+3. **Modeling**:
    - **Training a Two-Class CNN Model**: Train a CNN model for crack detection. Use the collected images for training and validation.
 
 ### Introduction
