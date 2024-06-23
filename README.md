@@ -161,6 +161,8 @@ The current project demonstrated that by combining positive and negative images 
 
 ### Requirements
 - Python 3.x
+- TensorFlow
+- OpenCV
 - keras
 - NumPy
 - Pandas
