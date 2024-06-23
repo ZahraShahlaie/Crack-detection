@@ -12,6 +12,23 @@ A paper published in 2023 has focused on the automated inspection of cracks and 
 - The models were trained and tested on a limited set of images under suitable lighting conditions and without background noise. Future studies should consider varying lighting conditions and background noise.
 - This study assumes that the maximum crack depth along the crack length is uniform, whereas crack depth may vary along its length. Further studies are required to investigate the actual depth variation along the crack.
 
+## Table of Contents
+1. [Project Setup](#project-setup)
+2. [Directory Structure](#directory-structure)
+3. [Downloading Data](#downloading-data)
+4. [Generating Backgrounds](#generating-backgrounds)
+5. [Image Augmentation](#image-augmentation)
+6. [Creating Composite Images](#creating-composite-images)
+7. [Preparing the Dataset](#preparing-the-dataset)
+8. [Training YOLOv8](#training-yolov8)
+9. [Model Evaluation](#model-evaluation)
+10. [Model Inference](#model-inference)
+11. [Results and Applications](#results-and-applications)
+12. [Requirements](#Requirements)
+13. [Contribution](#Contribution)
+14. [Acknowledgements](#acknowledgements)
+15. [Contact](#Contact)
+16. [References](#References)
 
 ### Project Objectives:
 This project involves developing a deep learning model for crack detection under low-light conditions, simulated nighttime scenarios, and using images captured from greater distances. Additionally, enhancing model accuracy by adding textures to crack-free images is targeted.
@@ -164,4 +181,17 @@ Overall, this section of the code focuses on assessing and examining the perform
 Through this project, a deep learning model has been developed capable of detecting cracks under various lighting conditions and at different distances, using images with various textures. This model can be valuable in assessing the condition of concrete structures and determining suitable repair methods.
 
 The current project demonstrated that by combining positive and negative images in a matrix format, it is possible to generate zoomed-in and zoomed-out images. These images can be beneficial for training deep learning models to detect cracks under different lighting conditions using textures.
+
+### Requirements
+- Python 3.x
+- keras
+- NumPy
+- Pandas
+- gdown
+
+### Contribution
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+### Contact
+For any inquiries or support, please contact [za.shahlaie@gmail.com](mailto:za.shahlaie@gmail.com).
 
