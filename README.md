@@ -12,24 +12,6 @@ A paper published in 2023 has focused on the automated inspection of cracks and 
 - The models were trained and tested on a limited set of images under suitable lighting conditions and without background noise. Future studies should consider varying lighting conditions and background noise.
 - This study assumes that the maximum crack depth along the crack length is uniform, whereas crack depth may vary along its length. Further studies are required to investigate the actual depth variation along the crack.
 
-## Table of Contents
-1. [Project Setup](#project-setup)
-2. [Directory Structure](#directory-structure)
-3. [Downloading Data](#downloading-data)
-4. [Generating Backgrounds](#generating-backgrounds)
-5. [Image Augmentation](#image-augmentation)
-6. [Creating Composite Images](#creating-composite-images)
-7. [Preparing the Dataset](#preparing-the-dataset)
-8. [Training YOLOv8](#training-yolov8)
-9. [Model Evaluation](#model-evaluation)
-10. [Model Inference](#model-inference)
-11. [Results and Applications](#results-and-applications)
-12. [Requirements](#Requirements)
-13. [Contribution](#Contribution)
-14. [Acknowledgements](#acknowledgements)
-15. [Contact](#Contact)
-16. [References](#References)
-
 ### Project Objectives:
 This project involves developing a deep learning model for crack detection under low-light conditions, simulated nighttime scenarios, and using images captured from greater distances. Additionally, enhancing model accuracy by adding textures to crack-free images is targeted.
 
@@ -112,7 +94,7 @@ Here, negative images (crack-free) were selected and combined with another set o
 
 The main objective of this code is to prepare high-quality data for training a deep learning model to detect cracks in images. By utilizing textures downloaded from Google Drive, this code transforms negative images in a way that enables the model to accurately detect cracks and perform better in identifying cracks in real-world images.
 
-Creating DataFrames for Training:
+## Creating DataFrames for Training:
 
 • All new images resulting from texture integration are categorized into "positive" and "negative".
 
